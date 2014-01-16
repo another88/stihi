@@ -1,0 +1,231 @@
+/* 
+    Document   : frontend
+    Created on : 02.06.2013, 15:19:25
+    Author     : another
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+#header{
+    margin:0px auto;
+    background: url("../images/header_menu.jpg") no-repeat scroll left 0 transparent;
+    width: 1024px;
+    height: 171px;
+}
+#bg_top{
+    background: url("../images/bg_top.png") repeat-x scroll left top transparent;
+}
+#header #header_right{
+    box-shadow: 0 0 0 #000000;
+    color: black;
+    float: right;
+    font-size: 22px;
+    font-weight: bold;
+    height: 30px;
+    padding: 35px 18px 0 50px;
+    position: relative;
+    right: 60px;
+    z-index: 1;
+}
+#header_menu ul{
+    display: inline-block;
+    left: 300px;
+    position: relative;
+    top: 140px;
+    z-index: 999;
+}
+#header_menu ul li{
+    display: block;
+    float:left;
+}
+#header_menu ul li a {
+    background: url("../images/templatemo_menu_bg.png") no-repeat scroll center top transparent;
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+    height: 70px;
+    padding: 34px 15px 0;
+    text-align: center;
+    text-decoration: none;
+    width: 104px;
+}
+.bg_content {
+    background: url("../images/bg_top_carusel.png") no-repeat scroll 50% 10px transparent;
+    margin: 0 auto;
+    min-height: 440px;
+    padding-top: 35px;
+    position: relative;
+    width: 990px;
+    top: 30px;
+    z-index: 1;
+}
+#content .box-heading {
+    background: url("../images/bg_box_head_1.png") no-repeat scroll 46% top transparent;
+    color: #161412;
+    font-family: 'ThyssenJRegular';
+    font-size: 36px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    line-height: 40px;
+    margin-top: -20px;
+    padding-bottom: 30px;
+    padding-right: 50px;
+    padding-top: 40px;
+    text-align: center;
+    text-shadow: 1px 1px #BBB3A5;
+}
+#content #wood_block{
+    background: url("../images/bg_shelf.png") no-repeat scroll 50% bottom transparent;
+    height: 340px;
+}
+.book_slider{
+    display: inline-block;
+    height: 190px;
+}
+.book_slider #poet_title{
+    display: block;
+    color: black;
+    position: relative;
+}
+.book_slider li{
+    background: none repeat scroll 0 0 gray;
+    display: block;
+    float: left;
+    height: 220px;
+    margin-right: 10px;
+    width: 150px;
+}
+.image_carousel {
+    padding: 15px 0 15px 40px;
+    position: relative;
+}
+.image_carousel img {
+    border: 1px solid #ccc;
+    background-color: white;
+    padding: 9px;
+    margin: 7px;
+    display: block;
+    float: left;
+}
+a.prev, a.next {
+    width: 45px;
+    height: 50px;
+    display: block;
+    position: absolute;
+    top: 185px;
+}
+a.prev {            left: -22px;
+                    background: url("../images/left.png") no-repeat scroll left top transparent; }
+
+a.next {            right: -42px;
+                    background: url("../images/right.png") no-repeat scroll left top transparent; }
+a.prev.disabled, a.next.disabled {
+    cursor: default;
+}
+
+a.prev span, a.next span {
+    display: none;
+}
+.pagination {
+    text-align: center;
+}
+.pagination a {
+    width: 15px;
+    height: 15px;
+    margin: 0 5px 0 0;
+    display: inline-block;
+}
+.pagination a.selected {
+    background-position: -25px -300px;
+    cursor: default;
+}
+.pagination a span {
+    display: none;
+}
+.clearfix {
+    float: none;
+    clear: both;
+}
+#poet_profile .ramka{
+    background: url("../images/ram1.jpg") no-repeat scroll center top transparent;
+    height: 278px;
+    width: 235px;
+    margin-top: 30px;
+    float: left;
+}
+#poet_profile .ramka img{
+    margin-left: 55px;
+    margin-top: 50px;
+}
+
+#list{
+    width:631px;float: left;margin-left:50px;margin-top:20px;
+}
+#list .top{
+    background: url("../images/list/content-top.png") no-repeat scroll 0 0 transparent;
+    padding-top: 50px;
+}
+#list .content{
+    background: url("../images/list/content-bg.png") repeat-y scroll 0 0 transparent;
+    overflow: hidden;
+    height: auto;
+    min-height: 400px; 
+    padding-left: 60px;
+    padding-top: 10px;
+}   
+#list .bottom{
+    background: url("../images/list/content-bottom.png") no-repeat scroll 0 100% transparent;
+    padding-bottom: 69px;
+}
+#list .breadcrumbs {
+    margin-left: 45px;
+    margin-top: -30px;
+    position: absolute;
+}
+.book_slider li a{
+    display: block;
+    height: 220px;
+    width: 150px;
+    text-decoration: none;
+}
+.poet_image{
+    height: 180px;
+}
+ul .active a{
+    color:#ffff00 !important;
+}
+.papirus{
+    background: url("/images/list/papirus2.png") no-repeat;
+    background-position:50px 50px;
+    width:1024px;
+    height: 1200px;
+}
+.tablica{
+    background: url("/images/list/tablica.png") no-repeat;
+    background-position:0px -200px;
+    width:1024px;
+    height: 1200px;
+}
+.stihi_data{
+    padding-left: 70px;
+    padding-top: 160px;
+    width: 860px;
+}
+.stihi_item a{
+    color:black;
+    font-size: 16px;
+}
+.stihi_item{
+    padding-bottom: 6px;
+}
+.tablica_content{
+    padding-left: 150px;
+    padding-top: 190px;
+    width: 780px;
+    font-size: 24px;
+}
